@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WLED"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/spyderdyne/Documents/Arduino/WLED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/FX.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/FX.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/FX_fcn.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/NodeStruct.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/alexa.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/blynk.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/bus_manager.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/bus_wrapper.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/button.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/cfg.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/colors.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/const.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/404.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/dmxmap.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/edit.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/favicon.ico">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/index.css">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/index.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/index.js">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/iro.js">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/liveview.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/liveviewws.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/msg.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/rangetouch.js">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_dmx.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_leds.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_sec.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_sync.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_time.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_ui.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_um.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/settings_wifi.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/style.css">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/update.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/usermod.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/data/welcome.htm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/dmx.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/e131.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/fcn_declare.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/file.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/html_other.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/html_settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/html_ui.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/hue.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/ir.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/ir_codes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/json.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/led.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/lx_parser.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/mqtt.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/my_config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/my_config_sample.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/ntp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/overlay.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/palettes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/pin_manager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/pin_manager.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/playlist.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/presets.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/set.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Callbacks.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/DisconnectReasons.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Flags.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Helpers.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/MessageProperties.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/ConnAckPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/ConnAckPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/Packet.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PingRespPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PingRespPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubAckPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubAckPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubCompPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubCompPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRecPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRecPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRelPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRelPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PublishPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PublishPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/SubAckPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/SubAckPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/UnsubAckPacket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/UnsubAckPacket.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/ParsingInformation.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Storage.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/async-mqtt-client/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkApi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkApiArduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkArduinoClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkDateTime.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkDebug.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkDebug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkDetectDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkEveryN.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkFifo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkHandlers.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkHandlers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkParam.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkProtocol.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkProtocolDefs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkTemplates.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkTimer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkTimer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkUtility.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkWiFiCommon.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/BlynkWidgetBase.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/Blynk/utility.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/BlynkSimpleEsp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/BlynkSimpleEsp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/blynk/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/dmx/ESPDMX.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/dmx/ESPDMX.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/e131/ESPAsyncE131.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/e131/ESPAsyncE131.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/espalexa/Espalexa.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/espalexa/EspalexaDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/espalexa/EspalexaDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/json/ArduinoJson-v6.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/json/AsyncJson-v6.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/network/Network.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/network/Network.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/DS1307RTC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/DS1307RTC.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/DateStrings.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/Readme.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/Time.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/TimeLib.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/time/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/timezone/LICENSE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/timezone/ReadMe.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/timezone/Timezone.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/timezone/Timezone.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/toki/Toki.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/ws2812fx/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/src/dependencies/ws2812fx/readme.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/udp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/um_manager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/usermod.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/usermod_v2_empty.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/usermods_list.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled00.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled00.vcxproj">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled00.vcxproj.filters">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled00.vcxproj.user">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled_eeprom.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled_ethernet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled_math.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled_serial.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/wled_server.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/ws.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/wled00/xml.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/spyderdyne/Documents/Arduino/WLED/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
